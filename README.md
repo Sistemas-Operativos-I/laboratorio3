@@ -12,7 +12,8 @@ COn el material dado en clase, este laboratorio está diseñado para resolverse 
 
 
 ## Actividades
-1. Command line arguments
+#### 1. Command line arguments
+
 
 Se debe diseñar e implementar un programa en lengiaje C que al ejecutarse reciba por argumentos:
 
@@ -20,24 +21,29 @@ Se debe diseñar e implementar un programa en lengiaje C que al ejecutarse recib
 
   1.  Si se ejecuta con la opción _-a_ debe ejecutar el ejrcicio 2 del Laboratorio 2.
 
-2. Static Library
+
+
+#### 2. Static Library
 
 Im plementar en el proyecto la librería cJSON, que permita:
 
   2.1. Si se agrega, junto a las opciones del **punto 1**, la opción _-j_, se debe utilizar la librería estática **cJSON** [1] y mostrar el resultado en dicho formato.
   
-3. Dynamic Library
+#### 3. Dynamic Library
 
 Se debe diseñar e implementar una librería dinámica que actúe como _plugin_, extendiendo las opciones y que permita lo siguiente:
 
   3.1. Se debe cargar dinámicamente al ejecutarse con la opción -d
+  
   3.2. Debe mostrar, utilizando la librería cJSON del punto 2, la información  sobre los filesystmes soportado por el kernel en uso: /proc/filesystems.
   
-4. Cuestionario
+#### 4. Cuestionario
 
   4.1. ¿Cuáles son los tipos de _type descriptors_ que podemos encontrar en _/proc/<id>/fd_?
+  
   4.2. Suponiendo que un usuario está ejecutando el proceso _pid 1212_, ¿Es válida la ejecución del siguiente comando desde una terminal nueva?
 _% echo “Hello, world.” >> /proc/1212/fd/1_
+  
   4.3. Qué diferencia hay entre _hard_ y _soft limits_?
 
 
